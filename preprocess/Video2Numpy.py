@@ -154,7 +154,7 @@ def FGM_video_results(model, video_path):
     for image in images:
         img_path = os.path.join(image_folder, image)
         video.write(cv2.imread(img_path))
-
+    print('Process video predict done.')
     # Giải phóng tài nguyên
     video.release()
     cv2.destroyAllWindows()
@@ -208,6 +208,7 @@ def YOLOv8_video_results(model, video_path):
     for image in images:
         img_path = os.path.join(image_folder, image)
         video.write(cv2.imread(img_path))
+    print('Process video predict done.')
 
     # Giải phóng tài nguyên
     video.release()

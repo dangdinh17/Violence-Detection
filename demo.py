@@ -113,8 +113,9 @@ class capture_video(QThread):
                 self.signal.emit(cv_img)
                 time.sleep(1/fps)  # Dừng lại một khoảng thời gian để đạt được tốc độ khung hình mong muốn
             else:
+                print('Play video done.')
                 break  # Nếu không còn khung hình nào, kết thúc luồng
-
+            
     def stop(self):
         print("stop threading", self.index)
         self.terminate()
