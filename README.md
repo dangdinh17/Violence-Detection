@@ -4,7 +4,7 @@
 
 #### Step 1
 
-If you want to retrain the model, please download the dataset from [here]()
+If you want to retrain the model, please download the dataset from [here](https://www.kaggle.com/datasets/anginhok/dataset)
 
 The structure of the dataset will be like this:
 ```
