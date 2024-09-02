@@ -1,7 +1,7 @@
-# Violence-Detection
+# Violence Detection
 
 ## A simple intro to use the pre-trained model
-
+[Link](https://github.com/dangdinh17/Violence-Detection.git) to the project
 #### Step 1
 
 If you want to retrain the model, please download the dataset from [here](https://www.kaggle.com/datasets/anginhok/dataset)
@@ -52,7 +52,9 @@ yolo = YOLO('./weights/best_yolov8.h5')
 To test the performance of the models in this project, please run the [demo](demo.py) file code with the installed necessary package in the [requirement](requirements.txt) file.
 
 ### License
-A part of this code is implemented in the project [RWF2000 - A Large Scale Video Database for Violence Detection](https://github.com/mchengny/RWF2000-Video-Database-for-Violence-Detection/blob/master/README.md?plain=1), so if you want to use this code in your paper, please cite this:
+1. This project is modified by me but this dataset of this project is not allowed for commercial purpose without the approval of the SMIIP Lab.
+2. In any case, the images and videos could not be used in a way that may cause damages on human’s mental health and personal privacy. 
+3. A part of this code is implemented in the project [RWF2000 - A Large Scale Video Database for Violence Detection](https://github.com/mchengny/RWF2000-Video-Database-for-Violence-Detection.git), so if you want to use this code in your paper, please cite this:
 ```
 @INPROCEEDINGS{9412502,
      author={Cheng, Ming and Cai, Kunjing and Li, Ming},
