@@ -1,0 +1,6 @@
+opencv-contrib-python
+keras==2.4.3
+nbformat==5.0.8
+numpy==1.19.5
+tensorflow==2.4.1
+tqdm
